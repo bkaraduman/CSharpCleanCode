@@ -32,6 +32,8 @@ I walk you through common code smells found in C# programs and shows you how to 
  * Good comment is TODO comment!
  
  So we don't want to get distracted and change our focus. So we just leave a comment there as a ToDo comment. And later, when we get back to that part of code, we can see what was happening before and fix the problem when we write it.
+  
+ In a nutshell:
  
  <blockquote>
   * Do not write comments, re-write your code! <br/>
