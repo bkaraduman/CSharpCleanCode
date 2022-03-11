@@ -40,3 +40,22 @@ I walk you through common code smells found in C# programs and shows you how to 
   * Don't explain "Whats" (the obvious) <br/>
   * Explain "Whys" and "hows" <br/>
   </blockquote>
+
+# Magic Numbers
+
+if(status == 1) // 1 means draft <br/>
+{ <br/>
+  // do smth <br/>
+} <br/>
+else if(status == 2) // 2 means lodged <br/>
+{ <br/>
+  // do smth <br/>
+} <br/>
+
+I, as a reader of this code, have no idea what 1, 2 represents! What is 1? What is 2? How are they different? What does code do for what? This kind of magic numbers make code hard to read, hard to understand and hard to change. And this is something that we should avoid at all times. And never write comment next to these numbers!
+
+So what I want you to take away from this lecture is to avoid magic numbers at all times, either extract them into a constant or use an enumeration if you're going to use them in multiple places.
+
+ <blockquote>
+  * Use contants or enums! <br/>
+  </blockquote>
