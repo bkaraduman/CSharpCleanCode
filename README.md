@@ -1,4 +1,4 @@
-# CSharpCleanCode
+# How to Clean Code with C#
 I walk you through common code smells found in C# programs and shows you how to refactor them. Refactoring is changing the design of the existing code without changing its external behaviour.
 
 In the solution explorer you will see some examples about how clean code should be and how refactoring is done! In the solution folders you will see bad code and under Refactoring folder you will see clean code!
